@@ -16,7 +16,8 @@ jobs:
               echo " Before"
               ls
               echo "Middle"
-              java -cp src/test/java/TestClass01
+              cd src/test/java/TestClass01
+              java -cp . TestClass01
               echo "After"
             
               
