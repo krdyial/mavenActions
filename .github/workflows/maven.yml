@@ -11,7 +11,9 @@ jobs:
             distribution: 'temurin' # See 'Supported distributions' for available options
             java-version: '17'
       - name: Run java class
-        run: pwd
+        run: |
+              pwd
+              -ls
 
       - name: Chance directory
         run: cd src/test/java/TestClass01.java
