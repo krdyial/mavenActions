@@ -16,8 +16,8 @@ jobs:
 
       - name: Checkout another Repo
         run: |
-          git clone https://github.com/krdyial/techproedsummer2020.git techproedsummer2020
-            repository: krdyial/techproedsummer2020
+          git clone https://github.com/krdyial/techproedsummer2020.git
+            
 
       - name: Other step
         run:  |  
