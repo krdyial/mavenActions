@@ -24,7 +24,7 @@ jobs:
               cd techproedsummer2020
               pwd
               echo " Before"
-              cd src/day01variablesdt/Variables01.java
+              cd src/day01variablesdt
               javac Variables01.java
               echo "Middle"
               echo "After"
