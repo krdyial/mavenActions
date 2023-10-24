@@ -19,7 +19,8 @@ jobs:
         with:
             repository: krdyial/techproedsummer2020
             ref: master
-      - name:
+      - name: Define path
+        run:  |  
               pwd
               echo " Before"
               ls
