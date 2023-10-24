@@ -14,7 +14,7 @@ jobs:
         run: |
               pwd
               ls
-              cd src/test/java
+              cd src/test/java/TestClass01
               java -cp . TestClass01
               
 
