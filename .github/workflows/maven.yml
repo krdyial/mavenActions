@@ -10,4 +10,5 @@ jobs:
         with:
             distribution: 'temurin' # See 'Supported distributions' for available options
             java-version: '17'
-      - run: java TestClass01.java
+      - name: Run java file
+      - run: java -cp . TestClass01
