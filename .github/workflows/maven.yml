@@ -15,7 +15,7 @@ jobs:
               pwd
               ls
               cd src/test/java/TestClass01
-              java -cp . TestClass01
+              javac TestClass01.java
               
 
      
