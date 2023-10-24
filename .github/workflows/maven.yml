@@ -21,6 +21,7 @@ jobs:
             ref: master
       - name: Other step
         run:  |  
+              cd techproedsummer2020
               pwd
               echo " Before"
               ls
