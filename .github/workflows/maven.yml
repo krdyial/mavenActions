@@ -14,6 +14,8 @@ jobs:
         run: |
               pwd
               ls
+              cd srx/test/java
+              ls
 
       - name: Chance directory
         run: cd src/test/java/TestClass01.java
