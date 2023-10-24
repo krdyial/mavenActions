@@ -13,7 +13,7 @@ jobs:
       - name: Run java class
         run: |
               pwd
-              -ls
+              ls
 
       - name: Chance directory
         run: cd src/test/java/TestClass01.java
