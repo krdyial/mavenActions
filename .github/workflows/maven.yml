@@ -13,8 +13,11 @@ jobs:
       - name: Run java class
         run: |
               pwd
+              echo " Before"
               ls
+              echo "Middle"
               cd src/test/java/TestClass01.java
+              echo "After"
               javac TestClass01.java
               
 
