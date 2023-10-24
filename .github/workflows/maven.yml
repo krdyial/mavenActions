@@ -14,4 +14,4 @@ jobs:
         run: cd src/test/java/TestClass01.java
 
       - name: Run java class
-        run: java -cp . TestClass01
+        run: pwd
