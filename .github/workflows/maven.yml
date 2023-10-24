@@ -11,4 +11,4 @@ jobs:
             distribution: 'temurin' # See 'Supported distributions' for available options
             java-version: '17'
       - name: Run java file
-        run: java -cp . TestClass01
+        run: java HelloWorldApp.java
