@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
             distribution: 'temurin' # See 'Supported distributions' for available options
-            java-version: ${{matrx.java}}
+            java-version: ${{matrix.java}}
       - name: Checkout another Repo
         run: |
           git clone https://github.com/krdyial/techproedsummer2020.git
