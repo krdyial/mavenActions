@@ -5,6 +5,10 @@ on:
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        java: ['8', '11', '17']
+    name: Java ${{matrix.java}} sample
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -13,8 +17,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
             distribution: 'temurin' # See 'Supported distributions' for available options
-            java-version: [8, 11, 17]
-
+            java-version: ${{matrx.java}}
       - name: Checkout another Repo
         run: |
           git clone https://github.com/krdyial/techproedsummer2020.git
