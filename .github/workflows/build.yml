@@ -10,6 +10,7 @@ jobs:
 
       - uses: actions/setup-java@v3
         with:
+          distribution: 'temurin' # See 'Supported distributions' for available option
           java-version: '17'
 
 
